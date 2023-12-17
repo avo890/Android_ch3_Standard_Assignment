@@ -10,8 +10,8 @@
         app:showAsAction="ifRoom" />
 
     <item
-        android:id="@+id/action_share"
-        android:title="공유"
+        android:id="@+id/action_notification"
+        android:title="알람"
         android:icon="@drawable/tb_notification"
         app:showAsAction="ifRoom" />
 </menu>
