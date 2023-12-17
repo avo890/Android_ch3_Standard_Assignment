@@ -10,9 +10,7 @@
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_gravity="right"
         android:layout_margin="8dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:backgroundTint="#FE6E1D"
         android:foreground="@drawable/fab_ic_add_20px"
@@ -26,7 +24,6 @@
         android:layout_height="69dp"
         app:itemBackground="@android:color/white"
         app:itemIconTint="#1C1C1C"
-        app:itemRippleColor="@null"
         app:itemTextColor="#1C1C1C"
         app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
