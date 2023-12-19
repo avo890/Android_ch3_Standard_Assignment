@@ -1,34 +1,23 @@
 package com.example.clone_ui
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
-import android.view.Menu
-import android.widget.ImageView
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
+    private val btn_search : Button by lazy {
+        findViewById(R.id.btn_search)
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-        BottomNavigationView.OnNavigationItemSelectedListener { item ->
-            when(item.itemId) {
-                R.id.home -> {
-                    // Respond to navigation item 1 click
-                    true
-                }
-                R.id.info -> {
-                    // Respond to navigation item 2 click
-                    true
-                }
-                else -> false
-            }
+        btn_search.setOnClickListener{
+            val intent = Intent(this, SearchActivity::class.java)
+            startActivity(intent)
         }
 
-
-        val round = findViewById<ImageView>(R.id.iv_product)
-        round.clipToOutline = true
 
 
 

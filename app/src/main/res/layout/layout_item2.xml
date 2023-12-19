@@ -13,7 +13,7 @@
         android:background="@drawable/iv_radius"
         android:clipToOutline="true"
         android:src="@drawable/product2"
-        android:scaleType="fitXY"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
