@@ -1,3 +1,8 @@
+# Android_ch3_CloneRecyclerView
+<앱 개발 숙련 주차 수준별 과제> 입문과제 때 작성한 CloneUI에 RecyclerView를 활용하여 개선한 코드를 업로드하였다. <br> <br>
+✏ 기존에 Clone UI 한 코드를 RecyclerView를 활용하여 개선해 보세요!
+<hr>
+
 # Android_ch3_CloneUI
 <앱 개발 입문 주차 수준별 과제> CloneUI-1(branch참조)부터 디벨롭하여 구현한 코드를 업로드 하였다. <br> <br>
 ✏ 다양한 Widget과 Layout을 활용하여 자신이 좋아하는 앱의 한 화면을 똑같이 따라 만들어 보세요. <br> ex) 인스타그램, Youtube, Netflix, 당근 마켓, 알람 등 <br>
