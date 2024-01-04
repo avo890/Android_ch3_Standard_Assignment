@@ -1,5 +1,6 @@
 package com.example.clone_ui
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Intent
 import android.net.Uri
@@ -26,6 +27,7 @@ class SelectImageActivity : AppCompatActivity() {
         findViewById(R.id.iv_upload)
     }
 
+    @SuppressLint("SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_select_image)
