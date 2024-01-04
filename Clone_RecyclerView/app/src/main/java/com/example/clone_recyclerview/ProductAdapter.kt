@@ -1,10 +1,9 @@
-package com.example.clone_ui
+package com.example.clone_recyclerview
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.clone_ui.databinding.LayoutItemBinding
+import com.example.clone_recyclerview.databinding.LayoutItemBinding
 
 class ProductAdapter (val productItem: MutableList<ProductItem>) : RecyclerView.Adapter<ProductAdapter.Holder>() {
 

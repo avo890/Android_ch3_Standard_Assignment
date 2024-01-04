@@ -1,4 +1,4 @@
-package com.example.clone_ui
+package com.example.clone_recyclerview
 
 import org.junit.Test
 

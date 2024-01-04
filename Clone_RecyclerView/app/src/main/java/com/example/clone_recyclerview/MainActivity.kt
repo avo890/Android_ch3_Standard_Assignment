@@ -1,15 +1,10 @@
-package com.example.clone_ui
+package com.example.clone_recyclerview
 
-import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
-import androidx.activity.result.ActivityResultLauncher
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.clone_ui.databinding.ActivityMainBinding
-import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.example.clone_recyclerview.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

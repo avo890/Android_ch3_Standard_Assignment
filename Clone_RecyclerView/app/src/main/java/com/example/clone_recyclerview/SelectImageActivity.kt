@@ -1,9 +1,8 @@
-package com.example.clone_ui
+package com.example.clone_recyclerview
 
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Intent
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button

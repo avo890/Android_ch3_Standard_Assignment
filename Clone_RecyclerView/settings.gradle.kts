@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Clone_Ui"
+rootProject.name = "Clone_RecyclerView"
 include(":app")
  

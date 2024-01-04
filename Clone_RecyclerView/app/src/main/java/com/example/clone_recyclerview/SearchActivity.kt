@@ -1,4 +1,4 @@
-package com.example.clone_ui
+package com.example.clone_recyclerview
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

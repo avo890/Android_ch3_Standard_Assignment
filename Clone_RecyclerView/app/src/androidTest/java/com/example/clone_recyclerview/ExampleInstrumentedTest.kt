@@ -1,4 +1,4 @@
-package com.example.clone_ui
+package com.example.clone_recyclerview
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
