@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.clone_ui"
+    namespace = "com.example.clone_recyclerview"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.clone_ui"
+        applicationId = "com.example.clone_recyclerview"
         minSdk = 31
         versionCode = 1
         versionName = "1.0"
