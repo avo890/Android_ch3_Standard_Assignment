@@ -15,7 +15,7 @@
         android:layout_height="0dp"
         android:orientation="horizontal"
         android:padding="4dp"
-        app:layout_constraintBottom_toTopOf="@+id/item_recycle">
+        app:layout_constraintBottom_toTopOf="@+id/scrollView">
 
         <Button
             android:id="@+id/btn_region"
