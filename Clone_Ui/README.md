@@ -1,4 +1,4 @@
-# Android_ch3_CloneUI3
+# Android_ch3_CloneUI
 <앱 개발 입문 주차 수준별 과제> CloneUI-1(branch참조)부터 디벨롭하여 구현한 코드를 업로드 하였다. <br> <br>
 ✏ 다양한 Widget과 Layout을 활용하여 자신이 좋아하는 앱의 한 화면을 똑같이 따라 만들어 보세요. <br> ex) 인스타그램, Youtube, Netflix, 당근 마켓, 알람 등 <br>
 [[TIL] Android 앱 개발 입문 : UI 클론 코딩 1](https://velog.io/@wiz_hey/TIL-Android-%EC%95%B1-%EA%B0%9C%EB%B0%9C-%EC%9E%85%EB%AC%B8-UI-%ED%81%B4%EB%A1%A0-%EC%BD%94%EB%94%A9-1) <br>  <br>
