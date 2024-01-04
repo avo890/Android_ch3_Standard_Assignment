@@ -21,7 +21,7 @@
             android:id="@+id/btn_region"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
             android:background="#00ff0000"
             android:backgroundTint="#00ff0000"
             android:drawableEnd="@drawable/tb_expandmore"
@@ -39,7 +39,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:layout_marginRight="4dp"
+            android:layout_marginEnd="4dp"
             android:background="#00ff0000"
             android:backgroundTint="#00ff0000"
             android:drawableRight="@drawable/tb_search" />
@@ -49,10 +49,10 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
             android:background="#00ff0000"
             android:backgroundTint="#00ff0000"
-            android:drawableRight="@drawable/tb_notification" />
+            android:drawableEnd="@drawable/tb_notification" />
 
     </LinearLayout>
 
@@ -62,6 +62,7 @@
             android:layout_height="0dp"
             android:layout_marginLeft="6dp"
             android:layout_marginRight="6dp"
+            android:paddingBottom="120dp"
             app:layout_constraintTop_toBottomOf="@+id/topbar"
             tools:layout_editor_absoluteX="37dp">
 
@@ -84,7 +85,7 @@
                         android:background="@drawable/iv_radius"
                         android:padding="8dp"
                         android:drawableStart="@drawable/img_menu"
-                        android:layout_marginRight="8dp" />
+                        android:layout_marginEnd="8dp" />
 
                     <Button
                         android:layout_width="wrap_content"
@@ -93,7 +94,7 @@
                         android:minHeight="0dp"
                         android:background="@drawable/iv_radius"
                         android:padding="8dp"
-                        android:layout_marginRight="8dp"
+                        android:layout_marginEnd="8dp"
                         android:drawableStart="@drawable/img_job"
                         android:text="알바" />
 
@@ -104,7 +105,7 @@
                         android:minHeight="0dp"
                         android:background="@drawable/iv_radius"
                         android:padding="8dp"
-                        android:layout_marginRight="8dp"
+                        android:layout_marginEnd="8dp"
                         android:drawableStart="@drawable/img_house"
                         android:text="부동산" />
 
